@@ -5,7 +5,7 @@ class Movie{
     public $description_movie;
     public $vote;
 
-    public function __construct($movie_name, $description_movie, $img_movie){}
+    public function __construct($_movie_name, $_description_movie, $_img_movie){}
 }
 
 ?>
