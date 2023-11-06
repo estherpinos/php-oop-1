@@ -19,14 +19,14 @@ require_once __DIR__ ."/db/db.php";
 </head>
 <body>
 
-<div class="container ">
+<div class="container mt-4 d-flex  ">
 
   <?php
   foreach($movies as $movie):
   ?>
 
     <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="img/<?php echo $movie->image->file_name ?>" class="card-img-top" alt="<?php echo $movie->image->name ?>">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
