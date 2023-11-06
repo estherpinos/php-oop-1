@@ -7,7 +7,7 @@ $movies = [
 
   new Movie ('Il grinch','Cindy Lou è una bambina che vive nel paese di Chinonso e, in prossimità dei festeggiamenti per l\'arrivo del Natale, convince il sindaco del paesino ad invitare il Grinch, uno scontroso e malvagio essere fantastico, che vive con gli oggetti presi dalla discarica.',9, new Media('Grinch.jpg','il grinch' )),
 
-  new Movie ('Chi ha incastrato Babbo Natale','Babbo Natale ha un grosso problema: tutti i bambini vogliono regali tecnologici, ma il suo team di elfi non è in grado di produrli. L\'elfo Romeo ha un altro problema: sua moglie è incinta ed entrambi sono preoccupati per il futuro della loro famigliola.',9, new Media('babbo.jpg', 'babbo natale')),
+  new Movie ('Babbo Natale','Babbo Natale ha un grosso problema: tutti i bambini vogliono regali tecnologici, ma il suo team di elfi non è in grado di produrli. L\'elfo Romeo ha un altro problema: sua moglie è incinta ed entrambi sono preoccupati per il futuro della loro famigliola.',6, new Media('babbo.jpg', 'babbo natale')),
 
 
 ];
