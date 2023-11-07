@@ -1,0 +1,23 @@
+body{
+  background-color: black;
+}
+
+.title{
+  margin-left: 10%;
+  margin-top: 50px;
+}
+
+
+img{
+  aspect-ratio: 0.9;
+}
+
+
+.description{
+  font-size: 11px;
+  height: 100px;
+}
+
+p{
+  font-size: 13px;
+}
