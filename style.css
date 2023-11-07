@@ -2,6 +2,10 @@ body{
   background-color: black;
 }
 
+.card:hover{
+  cursor: pointer;
+}
+
 .title{
   margin-left: 10%;
   margin-top: 50px;
