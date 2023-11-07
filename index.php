@@ -40,8 +40,9 @@ require_once __DIR__ ."/db/db.php";
         <p class="card-text overflow-auto description"><?php echo $movie->description_movie ?></p>
         <p class="card-text">Voto: <?php echo $movie->vote ?></p>
         <p class="card-text">Durata: <?php echo $movie->duration ?> min</p>
-        
+        <button class=" btn">Play</button>
       </div>
+      
     </div>
 
   <?php 
@@ -64,7 +65,7 @@ require_once __DIR__ ."/db/db.php";
         <p class="card-text overflow-auto description "><?php echo $TVseries->description_movie ?></p>
         <p class="card-text">Voto: <?php echo $TVseries->vote ?></p>
         <p class="card-text">Stagioni: <?php echo $TVseries->seasons ?></p>
-        
+        <button class=" btn">Play</button> 
       </div>
     </div>
 

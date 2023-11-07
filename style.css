@@ -21,3 +21,14 @@ img{
 p{
   font-size: 13px;
 }
+
+.btn{
+  background-color: greenyellow;
+  border: none;
+
+}
+
+.btn:hover{
+  background-color: blue;
+  color: white;
+}
