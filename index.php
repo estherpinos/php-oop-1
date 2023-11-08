@@ -1,7 +1,8 @@
 <?php 
-
-require_once __DIR__ ."/Model/Movie.php";
 require_once __DIR__ ."/Model/Media.php";
+require_once __DIR__ ."/Model/Movie.php";
+require_once __DIR__ ."/Model/Production.php";
+require_once __DIR__ ."/Model/TvSerie.php";
 require_once __DIR__ ."/db/db.php";
 
 ?>
@@ -55,16 +56,16 @@ require_once __DIR__ ."/db/db.php";
 <div class="container mt-5 d-flex  ">
 
   <?php
-  foreach($series as $TVseries):
+  foreach($series as $TvSeries):
   ?>
 
     <div class="card mx-2 bg-light rounded-2 " style="width: 18rem;">
-      <img src="img/<?php echo $TVseries->image->file_name ?>" class="card-img-top" alt="<?php echo $movie->image->name ?>">
+      <img src="img/<?php echo $TvSeries->image->file_name ?>" class="card-img-top" alt="<?php echo $movie->image->name ?>">
       <div class="card-body" >
-        <h5 class="card-title"><?php echo $TVseries->movie_name ?></h5>
-        <p class="card-text overflow-auto description "><?php echo $TVseries->description_movie ?></p>
-        <p class="card-text">Voto: <?php echo $TVseries->vote ?></p>
-        <p class="card-text">Stagioni: <?php echo $TVseries->seasons ?></p>
+        <h5 class="card-title"><?php echo $TvSeries->movie_name ?></h5>
+        <p class="card-text overflow-auto description "><?php echo $TvSeries->description_movie ?></p>
+        <p class="card-text">Voto: <?php echo $TvSeries->vote ?></p>
+        <p class="card-text">Stagioni: <?php echo $TvSeries->seasons ?></p>
         <button class=" btn">Play</button> 
       </div>
     </div>
